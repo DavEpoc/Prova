@@ -13,7 +13,7 @@ supportive & debug ->
 	#include <map>
 	#include "windows.h"
 	#include <sstream>
-	#include <fstream> 
+	#include <fstream>
 	#include <iostream>
 
 the ball and the board can move,they have collisions and are restrained
