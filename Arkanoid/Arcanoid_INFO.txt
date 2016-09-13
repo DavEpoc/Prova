@@ -1,0 +1,30 @@
+Project info:
+
+scene.h          -> is gameManager
+SDL              -> gaming loop event
+openGL & glew    -> graphics
+
+stb.h & stb_image.h     -> texture data
+glm & math.h & stdlib.h -> math
+
+supportive & debug ->
+	#include <string>
+	#include <vector>
+	#include <map>
+	#include "windows.h"
+	#include <sstream>
+	#include <fstream>
+	#include <iostream>
+
+the ball and the board can move,they have collisions and are restrained
+into boundaries.
+
+levels info for brick's health and color are parsed from
+activeBrickGrid.txt and colorBrickGrid.txt
+
+new random level is load if all bricks die or if r is pressed
+
+game will end(close) if ball falls under board
+
+i had some fun mixing colors and textures and making the board change texture
+if crossing half width.
